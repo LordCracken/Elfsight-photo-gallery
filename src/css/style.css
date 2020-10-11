@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/Light/DaxlinePro-Light.eot");
+  src: local("DaxlinePro-Light"), url("../fonts/Light/DaxlinePro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Light/DaxlinePro-Light.woff") format("woff"), url("../fonts/Light/DaxlinePro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/ExtraBold/DaxlinePro-ExtraBold.eot");
+  src: local("DaxlinePro-ExtraBold"), url("../fonts/ExtraBold/DaxlinePro-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ExtraBold/DaxlinePro-ExtraBold.woff") format("woff"), url("../fonts/ExtraBold/DaxlinePro-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/Bold/DaxlinePro-Bold.eot");
+  src: local("DaxlinePro-Bold"), url("../fonts/Bold/DaxlinePro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Bold/DaxlinePro-Bold.woff") format("woff"), url("../fonts/Bold/DaxlinePro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/Medium/DaxlinePro-Medium.eot");
+  src: local("DaxlinePro-Medium"), url("../fonts/Medium/DaxlinePro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Medium/DaxlinePro-Medium.woff") format("woff"), url("../fonts/Medium/DaxlinePro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/Thin/DaxlinePro-Thin.eot");
+  src: local("DaxlinePro-Thin"), url("../fonts/Thin/DaxlinePro-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Thin/DaxlinePro-Thin.woff") format("woff"), url("../fonts/Thin/DaxlinePro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/Black/DaxlinePro-Black.eot");
+  src: local("DaxlinePro-Black"), url("../fonts/Black/DaxlinePro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Black/DaxlinePro-Black.woff") format("woff"), url("../fonts/Black/DaxlinePro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url("../fonts/Regular/DaxlinePro-Regular.eot");
+  src: local("DaxlinePro-Regular"), url("../fonts/Regular/DaxlinePro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Regular/DaxlinePro-Regular.woff") format("woff"), url("../fonts/Regular/DaxlinePro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: DaxlinePro, sans-serif;
+}
