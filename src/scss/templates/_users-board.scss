@@ -1,0 +1,52 @@
+.user {
+  margin-bottom: 40px;
+  &__name {
+    margin-bottom: 10px;
+  }
+
+  &__albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 15px;
+    justify-content: space-evenly;
+  }
+}
+.album-card {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+
+  &__title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+    max-width: 200px;
+    color: #ffffff;
+  }
+
+  &__counter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    z-index: 1;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: height 0.5s;
+    background: linear-gradient(0deg, rgba(50, 45, 45, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    opacity: 0.5;
+  }
+}
